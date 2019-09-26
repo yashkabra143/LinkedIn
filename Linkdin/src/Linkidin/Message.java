@@ -15,10 +15,7 @@ public class Message {
 		openChrome();
 	}
 
-	private static void message() {
-		// TODO Auto-generated method stub
-		
-	}
+	
 
 	public static void openChrome() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
